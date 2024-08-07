@@ -26,13 +26,7 @@ func initMySQL() {
 	GDB.AutoMigrate(&ginLogin.GinLoginUser{})
 	GDB.AutoMigrate(&ginWallet.GinWalletAccount{})
 	GDB.AutoMigrate(&ginWallet.GinWalletAccountRecord{})
-	GDB.AutoMigrate(&model.PythonArticle{})
-	GDB.AutoMigrate(&model.GolangArticle{})
-	GDB.AutoMigrate(&model.WebArticle{})
-	GDB.AutoMigrate(&model.DatabaseArticle{})
-	GDB.AutoMigrate(&model.CloudNativeArticle{})
 	GDB.AutoMigrate(&model.CourseArticle{})
-	GDB.AutoMigrate(&model.OtherArticle{})
 }
 
 func closeMySQL() {
