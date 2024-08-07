@@ -2,6 +2,8 @@ package g
 
 import (
 	"github.com/zhangdapeng520/zdpgo_gin_examples/api_blog/model"
+	ginLogin "github.com/zhangdapeng520/zdpgo_gin_login"
+	ginWallet "github.com/zhangdapeng520/zdpgo_gin_wallet"
 	gorm "github.com/zhangdapeng520/zdpgo_gorm"
 	_ "github.com/zhangdapeng520/zdpgo_mysql"
 )
@@ -21,7 +23,9 @@ func initMySQL() {
 	GDB.DB().SetMaxIdleConns(10)
 	GDB.DB().SetMaxOpenConns(100)
 
-	GDB.AutoMigrate(&model.User{})
+	GDB.AutoMigrate(&ginLogin.GinLoginUser{})
+	GDB.AutoMigrate(&ginWallet.GinWalletAccount{})
+	GDB.AutoMigrate(&ginWallet.GinWalletAccountRecord{})
 	GDB.AutoMigrate(&model.PythonArticle{})
 	GDB.AutoMigrate(&model.GolangArticle{})
 	GDB.AutoMigrate(&model.WebArticle{})

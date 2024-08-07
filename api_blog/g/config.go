@@ -1,5 +1,6 @@
 package g
 
 var (
-	Salt = "zhangdapeng.com"
+	PasswordSalt = "zhangdapeng.com"
+	JwtKey       = "zhangdapeng.com"
 )

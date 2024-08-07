@@ -1,3 +1,7 @@
+github.com/zhangdapeng520/zdpgo_gin_login v0.1.1 h1:rOlERJ1M7h83MmS0FRrSZfVjDiAzzX+0wXFfSnH+HOg=
+github.com/zhangdapeng520/zdpgo_gin_login v0.1.1/go.mod h1:y9XDv0uqjoopvRve0LQf3u4K8SGAofuLB/zYqzAi5RU=
+github.com/zhangdapeng520/zdpgo_gin_wallet v0.1.0 h1:R2fh8xB71aiVzy9mhHoOH4+wkZpT5RMg2ZuRHmKlRVg=
+github.com/zhangdapeng520/zdpgo_gin_wallet v0.1.0/go.mod h1:CSDF4YT0838GXkek8LLvkRX3Rq+lPlvG717tDPGTyB0=
 github.com/zhangdapeng520/zdpgo_gorm v0.1.3 h1:rGnvj3NO1gCQNidGcWoyDn5ttMSSUTyFL0HY0bkP1Go=
 github.com/zhangdapeng520/zdpgo_gorm v0.1.3/go.mod h1:OMw8F4Bqs95zKtYTKnDQ38KAgEkc9ZYg7I0mMk1+dPg=
 github.com/zhangdapeng520/zdpgo_jwt v0.1.4 h1:Fu4dSxTWtI0ldFl+e8qjsOOb244nGWK29U8WoPUkgys=
