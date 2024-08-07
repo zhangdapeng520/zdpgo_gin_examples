@@ -1,5 +1,7 @@
 github.com/zhangdapeng520/zdpgo_gorm v0.1.3 h1:rGnvj3NO1gCQNidGcWoyDn5ttMSSUTyFL0HY0bkP1Go=
 github.com/zhangdapeng520/zdpgo_gorm v0.1.3/go.mod h1:OMw8F4Bqs95zKtYTKnDQ38KAgEkc9ZYg7I0mMk1+dPg=
+github.com/zhangdapeng520/zdpgo_jwt v0.1.4 h1:Fu4dSxTWtI0ldFl+e8qjsOOb244nGWK29U8WoPUkgys=
+github.com/zhangdapeng520/zdpgo_jwt v0.1.4/go.mod h1:JfFat/ZUEafeKxmqIU/K4uVKTBc5DJ3WZXDJZN3iuZc=
 github.com/zhangdapeng520/zdpgo_mysql v1.7.8 h1:dAV3CcZpwjew6K3gwSvQ+uRK5z8gHKOf4MHilE20w+M=
 github.com/zhangdapeng520/zdpgo_mysql v1.7.8/go.mod h1:S3+tIUEKNMZXZqACFlcnkkJA8as27HOK4NRcGZ9T4yE=
 github.com/zhangdapeng520/zdpgo_password v1.3.3 h1:pGDP28G0mNsPAhDl6DHKur1B+Z23NbxtpEf6BgoFNt4=

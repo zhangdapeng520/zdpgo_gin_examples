@@ -9,6 +9,7 @@ func InitRouter(router *gin.Engine) {
 
 	group.POST("/", userAdd)
 	group.GET("/", userGetAll)
+	group.POST("/login/", userLogin)
 	group.PUT("/:id/", userUpdate)
 	group.DELETE("/:id/", userDelete)
 }
