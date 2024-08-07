@@ -1,6 +1,7 @@
 package model
 
 type CourseArticle struct {
+	Id          int     `json:"id"`
 	Title       string  `json:"title" gorm:"unique"`          // 标题
 	Category    string  `json:"category"`                     // 分类
 	Description string  `json:"description"`                  // 描述

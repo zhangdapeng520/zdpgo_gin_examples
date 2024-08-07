@@ -8,4 +8,5 @@ func InitRouter(router *gin.Engine) {
 	group := router.Group("/article")
 
 	group.POST("/course/", addCourse)
+	group.PUT("/course/:id/", updateCourse)
 }
